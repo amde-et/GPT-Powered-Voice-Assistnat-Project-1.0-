@@ -6,6 +6,7 @@ import warnings
 import time
 import os
 
+
 # Load models outside the loop
 model = GPT4All("/path/to/gpt4all/model", allow_download=False)
 tiny_model = whisper.load_model("/path/to/tiny.pt")
