@@ -2,7 +2,7 @@
 # Voice Assistant with GPT-4 All Integration
 
 This project implements a voice-controlled assistant that integrates with the GPT-4 All model for generating text-based responses. The assistant listens for a specific wake word and then processes user prompts, generating responses using GPT-4 All. It utilizes the `speech_recognition`, `whisper`, and `pyttsx3` libraries for audio processing, transcription, and speech output.
-
+Fun Fact: It is terminal based for now but it is still handy 
 ## Features
 
 - Wake word detection: The assistant listens for a specific wake word ("jarvis" by default) to initiate interactions.
